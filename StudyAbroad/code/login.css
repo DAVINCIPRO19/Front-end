@@ -1,0 +1,73 @@
+.main {
+	background: rgba(0, 0, 0, 0.5) url(login.jpg) no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.info .in-info {
+	justify-content: center;
+	text-align: center;
+}
+.info .in-info a {
+	position: relative;
+	color: orange;
+	text-decoration: none;
+	transition: 500ms;s
+	font-size: 12px;
+}
+input[type = "email"], input[type = "text"],
+input[type = "password"], input[type = "country"], input[type = "number"] {
+	font-family: 'Roboto Condensed', sans-serif;
+	border: 0;
+	background-color: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid white;
+	padding: 14px 10px;
+	width: 250px;
+	height: 40px;
+	outline: none;
+	color: black;
+	border-radius: 2px;
+	transition: 0.25s;
+}
+input[type = "email"]:focus, input[type = "text"]:focus, 
+input[type = "password"]:focus, 
+input[type = "country"]:focus, input[type = "number"]:focus {
+	width: 300px;
+	border-color: orange;
+}
+input[type = "submit"] {
+	font-family: 'Roboto Condensed', sans-serif;
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	height: 40px;
+	border: 2px solid orange;
+	padding: 12px 40px;
+	outline: none;
+	color: white;
+	border-radius: 2px;
+	transition: 0.25s;
+	cursor: pointer;
+}
+input[type = "submit"]:hover {
+	background: orange;
+}
+input[type = "button"] {
+	top: 4px;
+	right: 4px;
+	width: 15px;
+	height: 15px;
+	background: mediumslateblue;
+	border-radius: 100%;
+	border: 0;
+	transition: 0.25s;
+	outline: none;
+	position: absolute;
+}
+input[type = "button"]:hover {
+	background: firebrick;
+}
